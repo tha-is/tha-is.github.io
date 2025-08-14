@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+body {
+  background-image: url("bg.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h5{
+font-family: "Teko", sans-serif;
+font-weight: 400;
+text-transform: lowercase;
+}
+
+p {
+font-family: "Google Sans Code";
+font-size: xx-small;
+text-transform: uppercase;
+color: #69005a;
+}
+
+.description {
+    font-family: "Google Sans Code";
+    font-size: xx-small;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+a {
+    color: #69005a;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.badge {
+    background-color: #69005a;
+}
+
+.badge:hover {
+   opacity: 70%;
+}

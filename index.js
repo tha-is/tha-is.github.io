@@ -13,7 +13,7 @@ function getAPIGitHubProjects() {
             project.classList.add('m-2');
             project.innerHTML = `
     <div class="title"><a href="${item.git_url}" target="_blank">${item.name}</a></div>
-            <div class="description border p-2">${item.description}
+            <div class="description rounded p-2 bg-light bg-opacity-50">${item.description}
             <span class="badge text-bg-light">${ item.language}</span>
             </div>
     
